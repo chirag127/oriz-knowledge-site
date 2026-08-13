@@ -19,9 +19,9 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
       - name: Checkout knowledge from workspace
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
         with:
           repository: chirag127/workspace
           path: workspace
