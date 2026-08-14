@@ -8,6 +8,7 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+    "test": "vitest run",
     "deploy": "astro build && wrangler pages deploy dist --project-name oriz-knowledge-site --branch main --commit-dirty=true"
   },
   "dependencies": {
@@ -29,6 +30,7 @@
   "devDependencies": {
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
+    "vitest": "^3.0.0",
     "wrangler": "^4.107.0"
   }
 }
