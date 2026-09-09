@@ -30,7 +30,7 @@
   "devDependencies": {
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
-    "vitest": "^3.0.0",
+    "vitest": "^4.1.11",
     "wrangler": "^4.107.0"
   }
 }
